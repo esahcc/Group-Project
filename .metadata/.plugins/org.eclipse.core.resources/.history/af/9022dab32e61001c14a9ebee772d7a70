@@ -1,0 +1,12 @@
+package com.chris.Petstagram.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.chris.Petstagram.models.Picture;
+
+@Repository
+public interface PictureRepository extends CrudRepository<Picture,Long> {
+	List<Picture> findAllByUser(User user);
+
+}

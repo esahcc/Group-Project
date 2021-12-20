@@ -1,0 +1,5 @@
+package com.chris.Petstagram.validators;
+
+public class UserValidator {
+
+}

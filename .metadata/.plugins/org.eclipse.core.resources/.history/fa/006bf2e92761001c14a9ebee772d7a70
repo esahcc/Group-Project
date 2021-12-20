@@ -1,0 +1,5 @@
+package com.chris.Petstagram.repositories;
+
+public interface UserRepository {
+
+}
